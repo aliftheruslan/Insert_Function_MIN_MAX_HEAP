@@ -1,13 +1,13 @@
-///You all know that min-max heap is an important element 
+/*You all know that min-max heap is an important element 
 in DATA STRUCTURES & ALGORITHMS. 
 Many have problem in creating or understanding the Insert Function for this data structure.
-So, I am sharing here an easy code of mine, which will clear the ideas, I hope.///
+So, I am sharing here an easy code of mine, which will clear the ideas, I hope.*/
 
 //code in C++
 
-//all you have to do is, insert the new value to the end of the array (creating a new position, i.e. increasing the size of the array)
+/*all you have to do is, insert the new value to the end of the array (creating a new position, i.e. increasing the size of the array)
 and check if it's position is okay in the heap structure (if min/max properties hold for every previous nodes in the branch of the tree).
-//
+*/
 
 #include<bits/stdc++.h>
 using namespace std;
